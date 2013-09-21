@@ -16,3 +16,9 @@
 [submodule "bundle/railscasts-theme"]
 	path = bundle/railscasts-theme
 	url = git@github.com:jpo/vim-railscasts-theme.git
+[submodule "bundle/molokai-theme"]
+	path = bundle/molokai-theme
+	url = git@github.com:tomasr/molokai.git
+[submodule "bundle/DBGp-client"]
+	path = bundle/DBGp-client
+	url = git@github.com:vim-scripts/DBGp-client.git

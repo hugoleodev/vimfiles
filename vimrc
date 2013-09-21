@@ -10,8 +10,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 "Solarized Colorscheme for Vim configs
 syntax enable
-"set background=dark
-colorscheme railscasts
+set background=dark
+colorscheme molokai
 
 if has('gui_runing')
 "	set background=light
