@@ -10,5 +10,12 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 "Solarized Colorscheme for Vim configs
 syntax enable
-set background=dark
-colorscheme solarized
+"set background=dark
+colorscheme railscasts
+
+if has('gui_runing')
+"	set background=light
+else
+"	set background=dark
+"	let g:solarized_term_colors=256
+endif
